@@ -1,3 +1,5 @@
+package strings;
+
 import org.junit.Test;
 import strings.AnagramChecker;
 import strings.CountVowels;
