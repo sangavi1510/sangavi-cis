@@ -5,38 +5,7 @@ import static org.junit.Assert.*;
 
 import java.util.HashMap;
 
-class Student1 {
-    private String firstName;
-    private String lastName;
-    private double gpa;
 
-    public Student1(String firstName, String lastName, double gpa) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gpa = gpa;
-    }
-
-    // Getter methods for attributes
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public double getGPA() {
-        return gpa;
-    }
-}
-
-public class StudentHashMapExample {
-
-    // Method to get a student by name from the HashMap
-    public static Student1 getStudentByName(HashMap<String, Student1> studentMap, String name) {
-        return studentMap.get(name);
-    }
-}
 
 public class StudentHashMapExampleTest {
     public static Student1 getStudentByName(HashMap<String, Student1> studentMap, String name) {

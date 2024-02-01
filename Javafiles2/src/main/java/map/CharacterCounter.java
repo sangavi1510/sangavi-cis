@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class CharacterCounter {
 
-    public Map<Character, Integer> printCharacterCounts(String input) {
+    public static Map<Character, Integer> printCharacterCounts(String input) {
         Map<Character, Integer> charCountMap = new HashMap<>();
 
         // Counting occurrences of each character
