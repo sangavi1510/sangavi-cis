@@ -8,7 +8,7 @@ public class RepeatedCharactersTest {
     RepeatedCharacters rc = new RepeatedCharacters();
     @Test
     public void test1(){
-        Assert.assertEquals("a",rc.findRepeatedCharacters("sairam"));
-        Assert.assertEquals("am",rc.findRepeatedCharacters("sairammanoj"));
+        Assert.assertEquals("a",rc.findRepeatedCharacters("sangavi"));
+        Assert.assertEquals("am",rc.findRepeatedCharacters("sangavikema"));
     }
 }
