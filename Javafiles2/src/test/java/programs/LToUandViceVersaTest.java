@@ -8,7 +8,7 @@ public class LToUandViceVersaTest {
     LToUandViceVersa ob = new LToUandViceVersa();
     @Test
     public void test1(){
-        Assert.assertEquals("MaNoj",ob.ltouandViceVersa("mAnOJ"));
+        Assert.assertEquals("SaNgAvI",ob.ltouandViceVersa("sAnGaVi"));
 
         Assert.assertEquals("He shells",ob.ltouandViceVersa("hE SHELLS"));
     }

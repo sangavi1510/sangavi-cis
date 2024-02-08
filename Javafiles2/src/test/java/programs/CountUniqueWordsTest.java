@@ -9,10 +9,10 @@ public class CountUniqueWordsTest {
     CountUniqueWords cw = new CountUniqueWords();
     @Test
     public void test1(){
-        Assert.assertEquals(3,cw.countUniqueWords("sai s sa"));
+        Assert.assertEquals(3,cw.countUniqueWords("san s sa"));
 
-        Assert.assertEquals(1,cw.countUniqueWords("sai sai sa"));
+        Assert.assertEquals(1,cw.countUniqueWords("san san sa"));
 
-        Assert.assertEquals(0,cw.countUniqueWords("sai sai sai"));
+        Assert.assertEquals(0,cw.countUniqueWords("san san san"));
     }
 }
